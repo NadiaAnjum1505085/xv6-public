@@ -89,3 +89,10 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+int
+sys_Nadia_Antara(void)
+{
+  print_NnB();
+  return 1505085;
+}
